@@ -58,3 +58,37 @@ Tab:AddButton({
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+Tab:AddButton({
+    Name = "Aimbot!",
+    Callback = function()    loadstring(game:HttpGet("https://raw.githubusercontent.com/DanielHubll/DanielHubll/refs/heads/main/Aimbot%20Mobile"))()    
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+    Name = "ESP!",
+    Callback = function()           loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Aimbot-y-Esp-Beta-para-mobile-28325"))()
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+    Name = "3K AIMBOT!",
+    Callback = function()    loadstring(game:HttpGet("https://api.rubis.app/v2/scrap/wFnRLrBT98LRuJtp/raw",true))()
+      end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
